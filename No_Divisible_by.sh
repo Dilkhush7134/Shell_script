@@ -15,3 +15,8 @@ then
 fi
 done
 
+#================Count no of s
+#!/bin/bash
+x=mydbservicessssss
+echo $x | grep -o 's' | wc -l
+
